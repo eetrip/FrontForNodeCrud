@@ -13,9 +13,9 @@ class Main extends Component {
       <main>
         <Switch>
           <Route exact path="/" component={ListNote} />
-          <Route path="/notes" component={ListNote} />
           <Route path="/notes/add" component={AddNote} />
           <Route path="/notes/:id" component={EditNote} />
+          <Route path="/notes" component={ListNote} />
           <Route path="/*" component={ERROR} />
         </Switch>
       </main>

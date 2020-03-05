@@ -56,7 +56,7 @@ class ListNote extends Component {
               <th>title</th>
               <th>content</th>
               <td>
-                <a href="/notes/add">Add</a>
+                <a href="http://localhost:3200/notes/add">Add</a>
               </td>
               <th></th>
               <th></th>
