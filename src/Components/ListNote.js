@@ -40,8 +40,8 @@ class ListNote extends Component {
   }
 
   // To delete any employee
-  deleteNote(empid) {
-    this.delete.deleteNote(empid);
+  deleteNote(id) {
+    this.delete.deleteNote(id);
     this.getList();
   }
 

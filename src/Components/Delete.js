@@ -3,7 +3,7 @@ import axios from "axios";
 class Delete {
   deleteNote(id) {
     axios
-      .get("http://localhost:3000/notes/" + id)
+      .delete("http://localhost:3000/notes/" + id)
       .then(() => {
         console.log("Employee Deleted !!!");
       })
